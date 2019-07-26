@@ -30,7 +30,7 @@ int main(void)
 void segfault_handler(void)
 {
   printf("segfault detected! ***CRASH***");
-  print_file("flag");
+  print_file("flag0");
   exit(0);
 }
 
